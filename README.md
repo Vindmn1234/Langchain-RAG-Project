@@ -1,6 +1,51 @@
-# LangChain News Processing API ![](static/favicon.ico)
+# LangChain-RAG for Financial and Business News Analysis
+## Project Overview
 
-## Introduction
+This project implements a Retrieval-Augmented Generation (RAG) system for analyzing financial and business news over the past month. By leveraging Named Entity Recognition (NER) and vector-based retrieval, our goal is to generate accurate, source-backed, and up-to-date information for users. This chatbos helps overcome key limitations of traditional large language models (LLMs), including lack of real-time knowledge, hallucination issues and lack of news source.
+
+## 1. 
+
+## 2. Retrieval-Augmented Generation (RAG)
+- **LangChain for RAG**
+  - Utilizes **LangChain** to build a **Retrieval-Augmented Generation (RAG)** pipeline.
+  - Handles **document processing, retrieval, and LLM integration**.
+
+- **Named Entity Recognition (NER)**
+  - Uses `Jean-Baptiste/roberta-large-ner-english` to extract key financial entities.
+
+- **Embedding & FAISS Vector Storage**
+  - Generates embeddings with `text-embedding-ada-002` via LangChain's `OpenAIEmbeddings`.
+  - Stores embeddings in **FAISS** for fast retrieval.
+
+- **Retrieval-Augmented Generation (RAG)**
+  - Retrieves top **k** relevant news articles using **LangChain’s FAISS retriever**.
+  - Uses **GPT-4 (via LangChain’s RetrievalQA)** to generate accurate, context-aware responses.
+
+## 3. Evaluation Process
+
+### **Evaluation Process**
+
+- **Generate Q&A Pairs**  
+  - GPT-4 generates **20 question-answer pairs** from retrieved financial news articles. These serve as the ground truth for evaluation. 
+
+- **Test the RAG Model**  
+  - Runs the RAG system on these queries and generated answers for the 20 questions. Compares responses to ground truth.  
+
+- **Faithfulness Scoring**  
+  - **GPT-4 acted as a judge**, scoring faithfulness (accuracy & correctness) on a **1-5 scale**. It also provided detailed feedback on mistakes and strengths.
+
+### **Results**
+- **Average Faithfulness Score:** **4.60/5**  
+- **Most responses** rated **4-5**, indicating **high factual accuracy**.  
+- **Minor inconsistencies** in some responses, but overall **strong performance**.  
+
+✅ **Conclusion:**  
+Our **RAG system significantly improves accuracy, transparency, and real-time relevance** compared to standard LLM outputs.
+
+
+## 4. LangChain News Processing API ![](static/favicon.ico)
+
+### Introduction
 
 Welcome to the **LangChain News Processing API** – a cutting-edge, fast, and interactive API built using FastAPI and LangChain. This API leverages Retrieval-Augmented Generation (RAG) techniques to deliver real-time insights and summaries from a curated dataset of news articles.
 
@@ -38,7 +83,7 @@ Example data can be found in [news_data](./service/news_data.csv/)
 
 ---
 
-## Setting up the Virtual Environment
+### Setting up the Virtual Environment
 ```bash
 # Create the virtual environment:
 python3.11 -m venv venv
@@ -51,7 +96,7 @@ python3 -m pip install -r requirements.txt
 ```
 ---
 
-## Run the Application
+### Run the Application
 ```bash
 # Run the application:
 uvicorn app.main:app --reload
