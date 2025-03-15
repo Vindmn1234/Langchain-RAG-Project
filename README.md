@@ -3,7 +3,7 @@
 
 This project implements a Retrieval-Augmented Generation (RAG) system for analyzing financial and business news over the past month. By leveraging LangChain, Named Entity Recognition (NER) and vector-based retrieval, our goal is to generate accurate, source-backed, and up-to-date information for users. This chatbos helps overcome key limitations of traditional large language models (LLMs), including lack of real-time knowledge, hallucination issues and lack of news source.
 
-## 1. **Exploratory Data Analysis (EDA)**[EDA Notebook](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)
+## 1. **Exploratory Data Analysis **[EDA Notebook](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)
 
 - **Data Cleaning**:  
   - Preprocessed financial news data to remove unnecessary elements.  
@@ -17,7 +17,9 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
   - Saved and Applied the model to classify sentiment in our dataset. ([shown in 3. Sentiment Analysis](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)).
 
 
-## 3. Retrieval-Augmented Generation (RAG)
+## 3. Retrieval-Augmented Generation (RAG) [![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Final_Project.ipynb)
+
+
 - **LangChain for RAG**
   - Utilizes **LangChain** to build a **Retrieval-Augmented Generation (RAG)** pipeline.
   - Handles **document processing, retrieval, and LLM integration**.
@@ -33,7 +35,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
   - Retrieves top **k** relevant news articles using **LangChain’s FAISS retriever**.
   - Uses **GPT-4 (via LangChain’s RetrievalQA)** to generate accurate, context-aware responses.
 
-## 4. Evaluation Process
+## 4. Evaluation Process[![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Final_Project.ipynb)
 
 ### **Evaluation Process**
 
