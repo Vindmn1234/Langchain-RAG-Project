@@ -1,11 +1,23 @@
 # LangChain-RAG for Financial and Business News Analysis
 ## Project Overview
 
-This project implements a Retrieval-Augmented Generation (RAG) system for analyzing financial and business news over the past month. By leveraging Named Entity Recognition (NER) and vector-based retrieval, our goal is to generate accurate, source-backed, and up-to-date information for users. This chatbos helps overcome key limitations of traditional large language models (LLMs), including lack of real-time knowledge, hallucination issues and lack of news source.
+This project implements a Retrieval-Augmented Generation (RAG) system for analyzing financial and business news over the past month. By leveraging LangChain, Named Entity Recognition (NER) and vector-based retrieval, our goal is to generate accurate, source-backed, and up-to-date information for users. This chatbos helps overcome key limitations of traditional large language models (LLMs), including lack of real-time knowledge, hallucination issues and lack of news source.
 
-## 1. 
+## 1. **Exploratory Data Analysis (EDA)**
 
-## 2. Retrieval-Augmented Generation (RAG)
+- **Data Cleaning**:  
+  - Preprocessed financial news data to remove unnecessary elements.  
+
+- **Named Entity Recognition (NER) Analysis**:  
+  - Generated a **word cloud** and **network graph** of extracted entities.  
+
+
+## 2. **Sentiment Analysis with Fine-Tuned DistilBERT**:  
+  - Fine-tuned **DistilBERT** on a financial news sentiment dataset. Improved accuracy from **0.31 to 0.85**.  
+  - Saved and Applied the model to classify sentiment in our dataset.  
+
+
+## 3. Retrieval-Augmented Generation (RAG)
 - **LangChain for RAG**
   - Utilizes **LangChain** to build a **Retrieval-Augmented Generation (RAG)** pipeline.
   - Handles **document processing, retrieval, and LLM integration**.
@@ -21,7 +33,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
   - Retrieves top **k** relevant news articles using **LangChain’s FAISS retriever**.
   - Uses **GPT-4 (via LangChain’s RetrievalQA)** to generate accurate, context-aware responses.
 
-## 3. Evaluation Process
+## 4. Evaluation Process
 
 ### **Evaluation Process**
 
@@ -43,7 +55,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
 Our **RAG system significantly improves accuracy, transparency, and real-time relevance** compared to standard LLM outputs.
 
 
-## 4. LangChain News Processing API ![](static/favicon.ico)
+## 5. LangChain News Processing API ![](static/favicon.ico)
 
 ### Introduction
 
