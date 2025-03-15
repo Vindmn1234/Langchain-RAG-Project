@@ -6,8 +6,9 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
 ## 1. **Exploratory Data Analysis** [![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)
 
 
-- **Data Cleaning**:  
-  - Preprocessed financial news data to remove unnecessary elements.  
+- **Data Source**
+  - ([Collected financial and business news](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Data%20collection/Data%20Scraping.ipynb)). from the past month using **NewsAPI**. 
+  - Created a ([dataset](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Data%20collection/News%20data%20-%20Sheet1.csv)).: stored the **publication date** and **news content** for analysis.  
 
 - **Named Entity Recognition (NER) Analysis**:  
   - Generated a **word cloud** and **network graph** of extracted entities.  
@@ -15,7 +16,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
 
 ## 2. **Sentiment Analysis with Fine-Tuned DistilBERT**:  
   - Fine-tuned **DistilBERT** on a [labeled financial news sentiment dataset](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/all-data.csv). Improved accuracy from **0.31 to 0.85** ([details here](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Fining-tuning.ipynb)).
-  - Saved and Applied the model to classify sentiment in our dataset. ([shown in 3. Sentiment Analysis](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)).
+  - Saved and Applied the model to classify sentiment in our dataset. ([shown in 3. Sentiment Analysis](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb))
 
 
 ## 3. Retrieval-Augmented Generation (RAG) [![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Langchain-RAG.ipynb)
