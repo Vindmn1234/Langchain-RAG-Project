@@ -1,0 +1,95 @@
+{
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 1.7699115044247788,
+  "eval_steps": 500,
+  "global_step": 100,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.02,
+      "learning_rate": 1.1764705882352942e-06,
+      "loss": 1.0977,
+      "step": 1
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 1.1764705882352942e-05,
+      "loss": 1.0911,
+      "step": 10
+    },
+    {
+      "epoch": 0.35,
+      "learning_rate": 1.960264900662252e-05,
+      "loss": 1.1164,
+      "step": 20
+    },
+    {
+      "epoch": 0.53,
+      "learning_rate": 1.827814569536424e-05,
+      "loss": 1.0879,
+      "step": 30
+    },
+    {
+      "epoch": 0.71,
+      "learning_rate": 1.6953642384105963e-05,
+      "loss": 1.0817,
+      "step": 40
+    },
+    {
+      "epoch": 0.88,
+      "learning_rate": 1.5629139072847682e-05,
+      "loss": 1.0767,
+      "step": 50
+    },
+    {
+      "epoch": 0.99,
+      "eval_loss": 1.0699162483215332,
+      "eval_runtime": 1.4461,
+      "eval_samples_per_second": 103.73,
+      "eval_steps_per_second": 13.139,
+      "step": 56
+    },
+    {
+      "epoch": 1.06,
+      "learning_rate": 1.4304635761589404e-05,
+      "loss": 1.0795,
+      "step": 60
+    },
+    {
+      "epoch": 1.24,
+      "learning_rate": 1.2980132450331127e-05,
+      "loss": 1.0699,
+      "step": 70
+    },
+    {
+      "epoch": 1.42,
+      "learning_rate": 1.1655629139072849e-05,
+      "loss": 1.071,
+      "step": 80
+    },
+    {
+      "epoch": 1.59,
+      "learning_rate": 1.033112582781457e-05,
+      "loss": 1.0555,
+      "step": 90
+    },
+    {
+      "epoch": 1.77,
+      "learning_rate": 9.006622516556293e-06,
+      "loss": 1.0584,
+      "step": 100
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 168,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 100,
+  "total_flos": 32722294063536.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
