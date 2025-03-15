@@ -36,9 +36,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
   - Retrieves top **k** relevant news articles using **LangChain’s FAISS retriever**.
   - Uses **GPT-4 (via LangChain’s RetrievalQA)** to generate accurate, context-aware responses.
 
-## 4. Evaluation Process[![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Final_Project.ipynb)
-
-### **Evaluation Process**
+## 4. Evaluation [![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Final_Project.ipynb)
 
 - **Generate Q&A Pairs**  
   - GPT-4 generates **20 question-answer pairs** from retrieved financial news articles. These serve as the ground truth for evaluation. 
