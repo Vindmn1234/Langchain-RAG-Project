@@ -7,7 +7,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
 
 
 - **Data Source**
-  - [Collected financial and business news](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Data%20collection/Data%20Scraping.ipynb). from the past month using **NewsAPI**. 
+  - [Collected financial and business news](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Data%20collection/Data%20Scraping.ipynb) from the past month using **NewsAPI**. 
   - Created a ([dataset](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Data%20collection/News%20data%20-%20Sheet1.csv)).: stored the **publication date** and **news content** for analysis.
      
 - **Data Cleaning**:  
