@@ -3,7 +3,7 @@
 
 This project implements a Retrieval-Augmented Generation (RAG) system for analyzing financial and business news over the past month. By leveraging LangChain, Named Entity Recognition (NER) and vector-based retrieval, our goal is to generate accurate, source-backed, and up-to-date information for users. This chatbos helps overcome key limitations of traditional large language models (LLMs), including lack of real-time knowledge, hallucination issues and lack of news source.
 
-## 1. **Exploratory Data Analysis (EDA)**
+## 1. **Exploratory Data Analysis (EDA)**[EDA Notebook](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)
 
 - **Data Cleaning**:  
   - Preprocessed financial news data to remove unnecessary elements.  
@@ -13,7 +13,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
 
 
 ## 2. **Sentiment Analysis with Fine-Tuned DistilBERT**:  
-  - Fine-tuned **DistilBERT** on a financial [news sentiment dataset](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/all-data.csv). Improved accuracy from **0.31 to 0.85** ([details here](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Fining-tuning.ipynb)).
+  - Fine-tuned **DistilBERT** on a [labeled financial news sentiment dataset](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/all-data.csv). Improved accuracy from **0.31 to 0.85** ([details here](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Fining-tuning.ipynb)).
   - Saved and Applied the model to classify sentiment in our dataset. ([shown in 3. Sentiment Analysis](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)).
 
 
