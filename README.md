@@ -18,7 +18,8 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
   - Saved and Applied the model to classify sentiment in our dataset. ([shown in 3. Sentiment Analysis](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)).
 
 
-## 3. Retrieval-Augmented Generation (RAG) [![GitHub](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Langchain-RAG.ipynb)
+## 3. Retrieval-Augmented Generation (RAG) [![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Langchain-RAG.ipynb)
+
 
 
 - **LangChain for RAG**
@@ -36,7 +37,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
   - Retrieves top **k** relevant news articles using **LangChain’s FAISS retriever**.
   - Uses **GPT-4 (via LangChain’s RetrievalQA)** to generate accurate, context-aware responses.
 
-## 4. Evaluation （[shown in 4. Evaluation](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Langchain-RAG.ipynb)
+## 4. Evaluation （[shown in 4. Evaluation](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/Langchain-RAG.ipynb)）
 
 - **Generate Q&A Pairs**  
   - GPT-4 generates **20 question-answer pairs** from retrieved financial news articles. These serve as the ground truth for evaluation. 
