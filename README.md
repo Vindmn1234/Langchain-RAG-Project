@@ -20,7 +20,8 @@ The API processes data from CSV files that include essential fields such as the 
 - **Financial Post**
 - **The Verge**
 
-*(Data used in this API covers the period from January to March in 2025.)*
+*(Data used in this API covers the period from January to March in 2025.)* 
+Example data can be found in [news_data](./service/news_data.csv/)
 
 ### How It Works
 
