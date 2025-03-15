@@ -13,8 +13,8 @@ This project implements a Retrieval-Augmented Generation (RAG) system for analyz
 
 
 ## 2. **Sentiment Analysis with Fine-Tuned DistilBERT**:  
-  - Fine-tuned **DistilBERT** on a financial news sentiment dataset. Improved accuracy from **0.31 to 0.85**.  
-  - Saved and Applied the model to classify sentiment in our dataset.  
+  - Fine-tuned **DistilBERT** on a financial [news sentiment dataset](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/all-data.csv). Improved accuracy from **0.31 to 0.85** ([details here](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Fining-tuning.ipynb)).
+  - Saved and Applied the model to classify sentiment in our dataset. ([shown in 3. Sentiment Analysis](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)).
 
 
 ## 3. Retrieval-Augmented Generation (RAG)
