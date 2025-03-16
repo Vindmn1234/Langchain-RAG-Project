@@ -1,7 +1,7 @@
 # LangChain-RAG for Financial and Business News Analysis
 ## Project Overview
 
-This project implements a Retrieval-Augmented Generation (RAG) system for analyzing financial and business news over the past month. By leveraging LangChain, Named Entity Recognition (NER) and vector-based retrieval, our goal is to generate accurate, source-backed, and up-to-date information for users. The final system is deployed as a FastAPI-powered chatbot that delivers real-time financial insights efficiently. This chatbot helps overcome key limitations of traditional large language models (LLMs), including lack of real-time knowledge, hallucination issues and lack of news source.
+This project implements a Retrieval-Augmented Generation (RAG) system for analyzing financial and business news over the past 1-2 months(Started from Feburary 2025). By leveraging LangChain, Named Entity Recognition (NER) and vector-based retrieval, our goal is to generate accurate, source-backed, and up-to-date information for users. The final system is deployed as a FastAPI-powered chatbot that delivers real-time financial insights efficiently. This chatbot helps overcome key limitations of traditional large language models (LLMs), including lack of real-time knowledge, hallucination issues and lack of news source.
 
 ## 1. **Exploratory Data Analysis** [![GitHub](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/Vindmn1234/Langchain-RAG-Project/blob/main/EDA%20%2B%20Sentiment%20fine-tuned%20model/Final%20Project-EDA.ipynb)
 
